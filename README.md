@@ -1,10 +1,10 @@
-# Google ASDK
+# Google ADK
 
 A Python SDK for Google services with a clean, service-based architecture.
 
 ## Overview
 
-Google ASDK is a modern Python SDK designed to interact with Google services and APIs. Built with a focus on maintainability and scalability, it follows service-based architectural patterns with clear separation of concerns.
+Google ADK is a modern Python SDK designed to interact with Google services and APIs. Built with a focus on maintainability and scalability, it follows service-based architectural patterns with clear separation of concerns.
 
 ## Features
 

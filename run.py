@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Entry point script for Google ASDK application.
+"""Entry point script for Google ADK application.
 
-This script serves as the main entry point for running the Google ASDK application.
+This script serves as the main entry point for running the Google ADK application.
 It adds the project root to the Python path and imports the main function.
 """
 
