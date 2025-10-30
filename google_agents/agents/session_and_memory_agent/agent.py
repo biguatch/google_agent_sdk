@@ -12,7 +12,7 @@ class EmailContent(BaseModel):
 
 
 root_agent = Agent(
-    name="structured_output_agent",
+    name="session_and_memory_agent",
     model="gemini-2.0-flash",
     instruction="""
         You are an Email Generation Assistant.
