@@ -1,9 +1,16 @@
 [project]
-name = "google-adk"
+name = "google-agents"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "google-adk>=1.17.0",
+    "google-generativeai>=0.8.5",
+    "litellm>=1.79.0",
+    "psutil>=7.1.2",
+    "python-dotenv>=1.2.1",
+    "yfinance>=0.2.66",
+]
 
 [dependency-groups]
 dev = [

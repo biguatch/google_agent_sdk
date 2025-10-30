@@ -1,4 +1,4 @@
-# Google ADK Project Index
+# Google Agents Project Index
 
 ## Project Overview
 
@@ -216,7 +216,7 @@ uv sync
 
 ---
 
-**Project Version:** 0.1.0  
-**Last Updated:** Initial Setup  
-**Python Version:** >= 3.14  
+**Project Version:** 0.1.0
+**Last Updated:** Initial Setup
+**Python Version:** >= 3.14
 **Package Manager:** uv

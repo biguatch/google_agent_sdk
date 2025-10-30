@@ -1,10 +1,10 @@
-# Google ADK
+# Google Agents
 
 A Python SDK for Google services with a clean, service-based architecture.
 
 ## Overview
 
-Google ADK is a modern Python SDK designed to interact with Google services and APIs. Built with a focus on maintainability and scalability, it follows service-based architectural patterns with clear separation of concerns.
+Google Agents is a modern Python SDK designed to interact with Google services and APIs. Built with a focus on maintainability and scalability, it follows service-based architectural patterns with clear separation of concerns.
 
 ## Features
 
@@ -198,6 +198,6 @@ This project uses:
 
 ---
 
-**Version:** 0.1.0  
-**Python:** >= 3.14  
+**Version:** 0.1.0
+**Python:** >= 3.14
 **Package Manager:** uv
