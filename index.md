@@ -1,4 +1,4 @@
-# Google ASDK Project Index
+# Google ADK Project Index
 
 ## Project Overview
 
@@ -7,8 +7,8 @@ This is a Python project managed with `uv`. It follows service-based organizatio
 ## Directory Structure
 
 ```
-google_asdk/
-├── google_asdk/          # Main package directory
+google_adk/
+├── google_adk/          # Main package directory
 │   ├── __init__.py       # Package initialization
 │   ├── main.py           # Main application logic
 │   ├── service/          # Service layer - business logic and external integrations
@@ -42,7 +42,7 @@ No services defined yet.
 When adding new services, follow this structure:
 
 ```
-google_asdk/service/
+google_adk/service/
 └── <service_name>/
     ├── <service_name>_service.py    # Main service class
     ├── <service_name>_config.py     # Configuration class
@@ -56,10 +56,10 @@ No models defined yet.
 
 ### Model Structure
 
-Models should be placed in `google_asdk/models/` with one model per file:
+Models should be placed in `google_adk/models/` with one model per file:
 
 ```
-google_asdk/models/
+google_adk/models/
 ├── <model_name>.py
 └── <another_model>.py
 ```
@@ -70,10 +70,10 @@ No utilities defined yet.
 
 ### Utility Structure
 
-Utility functions should be organized in `google_asdk/utils/` by domain:
+Utility functions should be organized in `google_adk/utils/` by domain:
 
 ```
-google_asdk/utils/
+google_adk/utils/
 ├── <utility_domain>.py
 └── <another_utility>.py
 ```
@@ -89,7 +89,7 @@ google_asdk/utils/
 
 ```bash
 # Navigate to project directory
-cd google_asdk
+cd google_adk
 
 # Install dependencies (creates virtual environment automatically)
 uv sync
@@ -102,7 +102,7 @@ uv sync
 uv run run.py
 
 # Or run the main module directly
-uv run python -m google_asdk.main
+uv run python -m google_adk.main
 ```
 
 ### Development

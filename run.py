@@ -5,7 +5,7 @@ This script serves as the main entry point for running the Google ASDK applicati
 It adds the project root to the Python path and imports the main function.
 """
 
-from google_asdk.main import main
+from google_adk.main import main
 
 if __name__ == "__main__":
     main()

@@ -34,7 +34,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 git clone <repository-url>
-cd google_asdk
+cd google_adk
 ```
 
 2. Install dependencies:
@@ -55,14 +55,14 @@ uv run run.py
 Or run the main module directly:
 
 ```bash
-uv run python -m google_asdk.main
+uv run python -m google_adk.main
 ```
 
 ## Project Structure
 
 ```
-google_asdk/
-├── google_asdk/          # Main package
+google_adk/
+├── google_adk/          # Main package
 │   ├── __init__.py       # Package initialization
 │   ├── main.py           # Main application logic
 │   ├── service/          # Service layer
@@ -119,12 +119,12 @@ This project follows strict organizational principles:
 
 ```bash
 # Create service directory
-mkdir -p google_asdk/service/my_service
+mkdir -p google_adk/service/my_service
 
 # Create service files
-touch google_asdk/service/my_service/my_service.py
-touch google_asdk/service/my_service/my_service_config.py
-touch google_asdk/service/my_service/__init__.py
+touch google_adk/service/my_service/my_service.py
+touch google_adk/service/my_service/my_service_config.py
+touch google_adk/service/my_service/__init__.py
 ```
 
 ### Commit Convention
@@ -160,10 +160,10 @@ The project includes a comprehensive test suite using pytest:
 uv run pytest
 
 # Run with coverage report
-uv run pytest --cov=google_asdk
+uv run pytest --cov=google_adk
 
 # Generate HTML coverage report
-uv run pytest --cov=google_asdk --cov-report=html
+uv run pytest --cov=google_adk --cov-report=html
 ```
 
 ## Documentation

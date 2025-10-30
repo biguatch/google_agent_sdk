@@ -19,7 +19,7 @@ uv run run.py
 uv run run.py
 
 # Using module
-uv run python -m google_asdk.main
+uv run python -m google_adk.main
 ```
 
 ### Testing
@@ -60,12 +60,12 @@ uv sync
 
 ```bash
 # 1. Create service directory
-mkdir -p google_asdk/service/my_service
+mkdir -p google_adk/service/my_service
 
 # 2. Create service files
-touch google_asdk/service/my_service/__init__.py
-touch google_asdk/service/my_service/my_service.py
-touch google_asdk/service/my_service/my_service_config.py
+touch google_adk/service/my_service/__init__.py
+touch google_adk/service/my_service/my_service.py
+touch google_adk/service/my_service/my_service_config.py
 
 # 3. Update index.md
 ```
@@ -74,7 +74,7 @@ touch google_asdk/service/my_service/my_service_config.py
 
 ```bash
 # 1. Create model file
-touch google_asdk/models/user.py
+touch google_adk/models/user.py
 
 # 2. Update index.md
 ```
@@ -83,7 +83,7 @@ touch google_asdk/models/user.py
 
 ```bash
 # 1. Create utility file
-touch google_asdk/utils/helpers.py
+touch google_adk/utils/helpers.py
 
 # 2. Update index.md
 ```
@@ -128,8 +128,8 @@ git push origin feature/new-feature
 ## Project Structure Reference
 
 ```
-google_asdk/
-├── google_asdk/           # Main package
+google_adk/
+├── google_adk/           # Main package
 │   ├── __init__.py        # Package init
 │   ├── main.py            # Main logic
 │   ├── service/           # Services
@@ -192,7 +192,7 @@ uv sync
 ## Next Steps
 
 1. ✅ Read `index.md` for detailed documentation
-2. ✅ Review existing code structure in `google_asdk/`
+2. ✅ Review existing code structure in `google_adk/`
 3. ✅ Start building your services!
 
 ---
